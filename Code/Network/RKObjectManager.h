@@ -21,7 +21,7 @@
 #import "RKRouter.h"
 #import "RKPaginator.h"
 #import "RKMacros.h"
-#import "AFNetworking.h"
+#import "rkAFNetworking.h"
 
 #ifdef _COREDATADEFINES_H
 #if __has_include("RKCoreData.h")
@@ -269,7 +269,7 @@ RKMappingResult, RKRequestDescriptor, RKResponseDescriptor;
 /**
  Creates and returns a new `RKObjectManager` object initialized with a new `AFHTTPClient` object that was in turn initialized with the given base URL. The RestKit defaults are applied to the object manager.
  
- When initialized with a base URL, the returned object manager will have a `requestSerializationMIMEType` with the value of `RKMIMETypeFormURLEncoded` and the underlying `HTTPClient` will have a default value for the 'Accept' header set to `RKMIMETypeJSON`, and the `AFJSONRequestOperation` class will be registered.
+ When initialized with a base URL, the returned object manager will have a `requestSerializationMIMEType` with the value of `RKMIMETypeFormURLEncoded` and the underlying `HTTPClient` will have a default value for the 'Accept' header set to `RKMIMETypeJSON`, and the `rkAFJSONRequestOperation` class will be registered.
  
  @param baseURL The base URL with which to initialize the `AFHTTPClient` object
  @return A new `RKObjectManager` initialized with an `AFHTTPClient` that was initialized with the given baseURL.
@@ -284,7 +284,7 @@ RKMappingResult, RKRequestDescriptor, RKResponseDescriptor;
  @param client The AFNetworking HTTP client with which to initialize the receiver.
  @return The receiver, initialized with the given client.
  */
-- (instancetype)initWithHTTPClient:(AFHTTPClient *)client NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithHTTPClient:(rkAFHTTPClient *)client NS_DESIGNATED_INITIALIZER;
 
 ///------------------------------------------
 /// @name Accessing Object Manager Properties
@@ -293,7 +293,7 @@ RKMappingResult, RKRequestDescriptor, RKResponseDescriptor;
 /**
  The AFNetworking HTTP client with which the receiver makes requests.
  */
-@property (nonatomic, strong, readwrite) AFHTTPClient *HTTPClient;
+@property (nonatomic, strong, readwrite) rkAFHTTPClient *HTTPClient;
 
 /**
  The base URL of the underlying HTTP client.
@@ -382,7 +382,7 @@ RKMappingResult, RKRequestDescriptor, RKResponseDescriptor;
  @param method The HTTP method for the request, such as `GET`, `POST`, `PUT`, or `DELETE`.
  @param path The path to be appended to the HTTP client's base URL and used as the request URL. If nil, the router is consulted.
  @param parameters The parameters to be either set as a query string for `GET` requests, or reverse merged with the parameterization of the object and set as the request HTTP body.
- @param block A block that takes a single argument and appends data to the HTTP body. The block argument is an object adopting the `AFMultipartFormData` protocol. This can be used to upload files, encode HTTP body as JSON or XML, or specify multiple values for the same parameter, as one might for array values.
+ @param block A block that takes a single argument and appends data to the HTTP body. The block argument is an object adopting the `rkAFMultipartFormData` protocol. This can be used to upload files, encode HTTP body as JSON or XML, or specify multiple values for the same parameter, as one might for array values.
  @return An `NSMutableURLRequest` object.
  @warning An exception will be raised if the specified method is not `POST`, `PUT` or `DELETE`.
  @see [AFHTTPClient multipartFormRequestWithMethod:path:parameters:constructingBodyWithBlock]
@@ -391,7 +391,7 @@ RKMappingResult, RKRequestDescriptor, RKResponseDescriptor;
                                                  method:(RKRequestMethod)method
                                                    path:(NSString *)path
                                              parameters:(NSDictionary *)parameters
-                              constructingBodyWithBlock:(void (^)(id <AFMultipartFormData> formData))block;
+                              constructingBodyWithBlock:(void (^)(id <rkAFMultipartFormData> formData))block;
 
 /**
  Creates an `NSMutableURLRequest` object with the `NSURL` returned by the router for the given route name and object and the given parameters.
@@ -888,5 +888,5 @@ RKMappingResult, RKRequestDescriptor, RKResponseDescriptor;
  @param networkReachabilityStatus The network reachability status.
  @return A string describing the reachability status.
  */
-NSString *RKStringFromNetworkReachabilityStatus(AFNetworkReachabilityStatus networkReachabilityStatus);
+NSString *RKStringFromNetworkReachabilityStatus(rkAFNetworkReachabilityStatus networkReachabilityStatus);
 #endif

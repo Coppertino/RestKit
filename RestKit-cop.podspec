@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             =  'RestKit'
+  s.name             =  'RestKit-cop'
   s.version          =  '0.24.0'
   s.summary          =  'RestKit is a framework for consuming and modeling RESTful web resources on iOS and OS X.'
   s.homepage         =  'http://www.restkit.org'
@@ -29,14 +29,14 @@ EOS
   ### Subspecs
 
   s.subspec 'Core' do |cs|
-    cs.dependency 'RestKit/ObjectMapping'
-    cs.dependency 'RestKit/Network'
-    cs.dependency 'RestKit/CoreData'
+    cs.dependency 'RestKit-cop/ObjectMapping'
+    cs.dependency 'RestKit-cop/Network'
+    cs.dependency 'RestKit-cop/CoreData'
   end
 
   s.subspec 'ObjectMapping' do |os|
     os.source_files   = 'Code/ObjectMapping.h', 'Code/ObjectMapping'
-    os.dependency       'RestKit/Support'
+    os.dependency       'RestKit-cop/Support'
     os.dependency       'RKValueTransformers', '~> 1.1.0'
     os.dependency       'ISO8601DateFormatterValueTransformer', '~> 0.6.0'
   end
@@ -46,9 +46,9 @@ EOS
     ns.ios.frameworks = 'CFNetwork', 'Security', 'MobileCoreServices', 'SystemConfiguration'
     ns.osx.frameworks = 'CoreServices', 'Security', 'SystemConfiguration'
     ns.dependency       'SOCKit'
-    ns.dependency       'AFNetworking', '~> 1.3.0'
-    ns.dependency       'RestKit/ObjectMapping'
-    ns.dependency       'RestKit/Support'
+    ns.dependency       'AFNetworking-restkit', '~> 1.3.0'
+    ns.dependency       'RestKit-cop/ObjectMapping'
+    ns.dependency       'RestKit-cop/Support'
 
     ns.prefix_header_contents = <<-EOS
 #import <Availability.h>
@@ -70,12 +70,12 @@ EOS
   s.subspec 'CoreData' do |cdos|
     cdos.source_files = 'Code/CoreData.h', 'Code/CoreData'
     cdos.frameworks   = 'CoreData'
-    cdos.dependency 'RestKit/ObjectMapping'
+    cdos.dependency 'RestKit-cop/ObjectMapping'
   end
 
   s.subspec 'Testing' do |ts|
     ts.source_files = 'Code/Testing.h', 'Code/Testing'
-    ts.dependency 'RestKit/Network'
+    ts.dependency 'RestKit-cop/Network'
     ts.prefix_header_contents = <<-EOS
 #import <Availability.h>
 
@@ -95,7 +95,7 @@ EOS
 
   s.subspec 'Search' do |ss|
     ss.source_files   = 'Code/Search.h', 'Code/Search'
-    ss.dependency 'RestKit/CoreData'
+    ss.dependency 'RestKit-cop/CoreData'
   end
 
   s.subspec 'Support' do |ss|

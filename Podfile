@@ -1,11 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
+source 'ssh://git@github.com/Coppertino/Specs.git'
 
 inhibit_all_warnings!
 
 def import_pods
-  pod 'RestKit', :path => '.'
-  pod 'RestKit/Testing', :path => '.'
-  pod 'RestKit/Search', :path => '.'
+  pod 'RestKit-cop', :path => '.'
+  pod 'RestKit-cop/Testing', :path => '.'
+  pod 'RestKit-cop/Search', :path => '.'
   
   pod 'Specta', '0.2.1'
   pod 'OCMock', '2.2.4'
