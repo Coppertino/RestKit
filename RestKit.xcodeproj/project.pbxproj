@@ -7,45 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07DA22AA1ABB0176003284DD /* rkAFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22971ABB0176003284DD /* rkAFHTTPClient.h */; };
+		07DA22AA1ABB0176003284DD /* rkAFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22971ABB0176003284DD /* rkAFHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DA22AB1ABB0176003284DD /* rkAFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22971ABB0176003284DD /* rkAFHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DA22AC1ABB0176003284DD /* rkAFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA22981ABB0176003284DD /* rkAFHTTPClient.m */; };
 		07DA22AD1ABB0176003284DD /* rkAFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA22981ABB0176003284DD /* rkAFHTTPClient.m */; };
-		07DA22AE1ABB0176003284DD /* rkAFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22991ABB0176003284DD /* rkAFHTTPRequestOperation.h */; };
+		07DA22AE1ABB0176003284DD /* rkAFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22991ABB0176003284DD /* rkAFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DA22AF1ABB0176003284DD /* rkAFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22991ABB0176003284DD /* rkAFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DA22B01ABB0176003284DD /* rkAFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA229A1ABB0176003284DD /* rkAFHTTPRequestOperation.m */; };
 		07DA22B11ABB0176003284DD /* rkAFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA229A1ABB0176003284DD /* rkAFHTTPRequestOperation.m */; };
-		07DA22B21ABB0176003284DD /* rkAFImageRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA229B1ABB0176003284DD /* rkAFImageRequestOperation.h */; };
+		07DA22B21ABB0176003284DD /* rkAFImageRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA229B1ABB0176003284DD /* rkAFImageRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DA22B31ABB0176003284DD /* rkAFImageRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA229B1ABB0176003284DD /* rkAFImageRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DA22B41ABB0176003284DD /* rkAFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA229C1ABB0176003284DD /* rkAFImageRequestOperation.m */; };
 		07DA22B51ABB0176003284DD /* rkAFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA229C1ABB0176003284DD /* rkAFImageRequestOperation.m */; };
-		07DA22B61ABB0176003284DD /* rkAFJSONRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA229D1ABB0176003284DD /* rkAFJSONRequestOperation.h */; };
+		07DA22B61ABB0176003284DD /* rkAFJSONRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA229D1ABB0176003284DD /* rkAFJSONRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DA22B71ABB0176003284DD /* rkAFJSONRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA229D1ABB0176003284DD /* rkAFJSONRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DA22B81ABB0176003284DD /* rkAFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA229E1ABB0176003284DD /* rkAFJSONRequestOperation.m */; };
 		07DA22B91ABB0176003284DD /* rkAFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA229E1ABB0176003284DD /* rkAFJSONRequestOperation.m */; };
-		07DA22BA1ABB0176003284DD /* rkAFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA229F1ABB0176003284DD /* rkAFNetworkActivityIndicatorManager.h */; };
+		07DA22BA1ABB0176003284DD /* rkAFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA229F1ABB0176003284DD /* rkAFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DA22BB1ABB0176003284DD /* rkAFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA229F1ABB0176003284DD /* rkAFNetworkActivityIndicatorManager.h */; };
 		07DA22BC1ABB0176003284DD /* rkAFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA22A01ABB0176003284DD /* rkAFNetworkActivityIndicatorManager.m */; };
 		07DA22BD1ABB0176003284DD /* rkAFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA22A01ABB0176003284DD /* rkAFNetworkActivityIndicatorManager.m */; };
-		07DA22BE1ABB0176003284DD /* rkAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22A11ABB0176003284DD /* rkAFNetworking.h */; };
+		07DA22BE1ABB0176003284DD /* rkAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22A11ABB0176003284DD /* rkAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DA22BF1ABB0176003284DD /* rkAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22A11ABB0176003284DD /* rkAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07DA22C01ABB0176003284DD /* rkAFPropertyListRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22A21ABB0176003284DD /* rkAFPropertyListRequestOperation.h */; };
+		07DA22C01ABB0176003284DD /* rkAFPropertyListRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22A21ABB0176003284DD /* rkAFPropertyListRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DA22C11ABB0176003284DD /* rkAFPropertyListRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22A21ABB0176003284DD /* rkAFPropertyListRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DA22C21ABB0176003284DD /* rkAFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA22A31ABB0176003284DD /* rkAFPropertyListRequestOperation.m */; };
 		07DA22C31ABB0176003284DD /* rkAFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA22A31ABB0176003284DD /* rkAFPropertyListRequestOperation.m */; };
-		07DA22C41ABB0176003284DD /* rkAFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22A41ABB0176003284DD /* rkAFURLConnectionOperation.h */; };
+		07DA22C41ABB0176003284DD /* rkAFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22A41ABB0176003284DD /* rkAFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DA22C51ABB0176003284DD /* rkAFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22A41ABB0176003284DD /* rkAFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DA22C61ABB0176003284DD /* rkAFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA22A51ABB0176003284DD /* rkAFURLConnectionOperation.m */; };
 		07DA22C71ABB0176003284DD /* rkAFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA22A51ABB0176003284DD /* rkAFURLConnectionOperation.m */; };
-		07DA22C81ABB0176003284DD /* rkAFXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22A61ABB0176003284DD /* rkAFXMLRequestOperation.h */; };
+		07DA22C81ABB0176003284DD /* rkAFXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22A61ABB0176003284DD /* rkAFXMLRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DA22C91ABB0176003284DD /* rkAFXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22A61ABB0176003284DD /* rkAFXMLRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DA22CA1ABB0176003284DD /* rkAFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA22A71ABB0176003284DD /* rkAFXMLRequestOperation.m */; };
 		07DA22CB1ABB0176003284DD /* rkAFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA22A71ABB0176003284DD /* rkAFXMLRequestOperation.m */; };
-		07DA22CC1ABB0176003284DD /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22A81ABB0176003284DD /* UIImageView+AFNetworking.h */; };
+		07DA22CC1ABB0176003284DD /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22A81ABB0176003284DD /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DA22CD1ABB0176003284DD /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22A81ABB0176003284DD /* UIImageView+AFNetworking.h */; };
 		07DA22CE1ABB0176003284DD /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA22A91ABB0176003284DD /* UIImageView+AFNetworking.m */; };
 		07DA22CF1ABB0176003284DD /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA22A91ABB0176003284DD /* UIImageView+AFNetworking.m */; };
-		07DA22D21ABB01FA003284DD /* RKValueTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22D01ABB01FA003284DD /* RKValueTransformers.h */; };
+		07DA22D21ABB01FA003284DD /* RKValueTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22D01ABB01FA003284DD /* RKValueTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DA22D31ABB01FA003284DD /* RKValueTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DA22D01ABB01FA003284DD /* RKValueTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DA22D41ABB01FA003284DD /* RKValueTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA22D11ABB01FA003284DD /* RKValueTransformers.m */; };
 		07DA22D51ABB01FA003284DD /* RKValueTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DA22D11ABB01FA003284DD /* RKValueTransformers.m */; };
@@ -1783,7 +1783,6 @@
 				25160E0B145650490060A5C5 /* RKErrorMessage.h in Headers */,
 				252CCE7217E0CA2700B7F0BF /* ISO8601DateFormatterValueTransformer.h in Headers */,
 				25160E0F145650490060A5C5 /* RKAttributeMapping.h in Headers */,
-				07DA22B61ABB0176003284DD /* rkAFJSONRequestOperation.h in Headers */,
 				25160E16145650490060A5C5 /* RKMapperOperation.h in Headers */,
 				07DA22AA1ABB0176003284DD /* rkAFHTTPClient.h in Headers */,
 				DB1148441A0B26B100C8A00A /* RKLumberjackLogger.h in Headers */,
@@ -1798,7 +1797,6 @@
 				25160E32145650490060A5C5 /* lcl_config_extensions_RK.h in Headers */,
 				25160E33145650490060A5C5 /* lcl_config_logger_RK.h in Headers */,
 				25160E44145650490060A5C5 /* RestKit-Prefix.pch in Headers */,
-				07DA22B21ABB0176003284DD /* rkAFImageRequestOperation.h in Headers */,
 				25160E47145650490060A5C5 /* RKDotNetDateFormatter.h in Headers */,
 				25160E4A145650490060A5C5 /* RKLog.h in Headers */,
 				252CCE7617E0CA2700B7F0BF /* RKISO8601DateFormatter.h in Headers */,
@@ -1815,7 +1813,6 @@
 				25055B8414EEF32A00B9C4DD /* RKMappingTest.h in Headers */,
 				25055B8814EEF32A00B9C4DD /* RKTestFactory.h in Headers */,
 				25055B8F14EEF40000B9C4DD /* RKPropertyMappingTestExpectation.h in Headers */,
-				07DA22BA1ABB0176003284DD /* rkAFNetworkActivityIndicatorManager.h in Headers */,
 				25EC1A3914F72B0900C3CF3F /* RKFetchRequestManagedObjectCache.h in Headers */,
 				25EC1A3D14F72B2800C3CF3F /* RKInMemoryManagedObjectCache.h in Headers */,
 				25EC1A6314F7402A00C3CF3F /* RKManagedObjectCaching.h in Headers */,
@@ -1825,7 +1822,6 @@
 				259D985E155218E5008C90F5 /* RKEntityCache.h in Headers */,
 				252028FC1577AE0B00076FB4 /* RKRouteSet.h in Headers */,
 				252029031577AE1800076FB4 /* RKRoute.h in Headers */,
-				07DA22BE1ABB0176003284DD /* rkAFNetworking.h in Headers */,
 				25FBB852159272DD00955D27 /* RKRouter.h in Headers */,
 				258EA4A815A38BC0007E07A6 /* RKObjectMappingOperationDataSource.h in Headers */,
 				258EA4AE15A38E7E007E07A6 /* RKMappingOperationDataSource.h in Headers */,
@@ -1834,7 +1830,6 @@
 				2597F99C15AF6DC400E547D7 /* RKRelationshipConnectionOperation.h in Headers */,
 				25AFF8F115B4CF1F0051877F /* RKMappingErrors.h in Headers */,
 				5CCC295615B7124A0045F0F5 /* RKMacros.h in Headers */,
-				07DA22AE1ABB0176003284DD /* rkAFHTTPRequestOperation.h in Headers */,
 				25104F1F15C30CD900829135 /* RKSearchWord.h in Headers */,
 				25104F2915C30D1700829135 /* RKManagedObjectStore+RKSearchAdditions.h in Headers */,
 				25104F2F15C30E7400829135 /* RKSearchIndexer.h in Headers */,
@@ -1857,23 +1852,28 @@
 				2502C8EF15F79CF70060FD75 /* Network.h in Headers */,
 				2502C8F115F79CF70060FD75 /* ObjectMapping.h in Headers */,
 				2502C8F315F79CF70060FD75 /* Search.h in Headers */,
-				07DA22CC1ABB0176003284DD /* UIImageView+AFNetworking.h in Headers */,
 				2502C8F515F79CF70060FD75 /* Support.h in Headers */,
 				2502C8F715F79CF70060FD75 /* Testing.h in Headers */,
 				2534781815FFD4A6002C0E4E /* RKURLEncodedSerialization.h in Headers */,
 				253477F115FFBC61002C0E4E /* RKDictionaryUtilities.h in Headers */,
+				07DA22B61ABB0176003284DD /* rkAFJSONRequestOperation.h in Headers */,
+				07DA22B21ABB0176003284DD /* rkAFImageRequestOperation.h in Headers */,
+				07DA22BA1ABB0176003284DD /* rkAFNetworkActivityIndicatorManager.h in Headers */,
+				07DA22BE1ABB0176003284DD /* rkAFNetworking.h in Headers */,
+				07DA22AE1ABB0176003284DD /* rkAFHTTPRequestOperation.h in Headers */,
+				07DA22CC1ABB0176003284DD /* UIImageView+AFNetworking.h in Headers */,
+				07DA22C01ABB0176003284DD /* rkAFPropertyListRequestOperation.h in Headers */,
+				07DA22C81ABB0176003284DD /* rkAFXMLRequestOperation.h in Headers */,
+				07DA22C41ABB0176003284DD /* rkAFURLConnectionOperation.h in Headers */,
 				25F53F391606269400A093BE /* RKObjectRequestOperationSubclass.h in Headers */,
 				25A226D61618A57500952D72 /* RKObjectUtilities.h in Headers */,
 				C0F11CE3190883380054AEA0 /* RKPathMatcher.h in Headers */,
-				07DA22C01ABB0176003284DD /* rkAFPropertyListRequestOperation.h in Headers */,
 				2507C327161BD5C700EA71FF /* RKTestHelpers.h in Headers */,
 				C0F11CE81908C7E60054AEA0 /* RKCoreData.h in Headers */,
 				25E88C88165C5CC30042ABD0 /* RKConnectionDescription.h in Headers */,
 				25A8C2341673BD480014D9A6 /* RKConnectionTestExpectation.h in Headers */,
-				07DA22C81ABB0176003284DD /* rkAFXMLRequestOperation.h in Headers */,
 				25A199D416ED035A00792629 /* RKBenchmark.h in Headers */,
 				25C6C0BD1716F6F800C98A73 /* TKEvent.h in Headers */,
-				07DA22C41ABB0176003284DD /* rkAFURLConnectionOperation.h in Headers */,
 				25C6C0C11716F6F800C98A73 /* TKState.h in Headers */,
 				25C6C0C51716F6F800C98A73 /* TKStateMachine.h in Headers */,
 				25C6C0CB1716F6F800C98A73 /* TransitionKit.h in Headers */,
@@ -2081,7 +2081,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastTestingUpgradeCheck = 0510;
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = RestKit;
 			};
 			buildConfigurationList = 25160D1014564E810060A5C5 /* Build configuration list for PBXProject "RestKit" */;
@@ -2616,6 +2616,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -2653,6 +2654,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
